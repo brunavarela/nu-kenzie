@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&family=Nunito:wght@200;300;400;700&display=swap");
+
+.mainRegisterContainer{
+   padding-top: 100px;
+
+   display: flex;
+   flex-direction: column;
+
+   align-items: center;
+   justify-content: center;
+
+}
+
+.registerContainer{
+    background-color: #212529;
+    padding-left: 10px;
+    padding: 10px;
+   
+    box-shadow: 0px 0px 7px 3px;
+    
+}
+
+.registerContainer .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    box-shadow: none;
+
+}
+.registerContainer .header h3{
+    font-family: "Nunito";
+    font-size: 23px;
+  
+    color:white;
+
+}
+.registerContainer .header img{
+    width: 123px;
+    height: 20px;
+}
+
+.registerContainer .form{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    box-shadow: none;
+}
+.registerContainer .form h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: lighter;
+
+    color:white;
+}
+.registerContainer .form input{
+    width: 250px;
+    background-color: #212529;
+
+    border: none;
+    border-bottom: 1px solid white;
+
+    color: white;
+    
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-bottom: 2px solid #FC367D;
+}
+
+.registerContainer .form .errors {
+    color: #C62923;
+    font-size: 11px;
+    margin: 0px;
+    width: 300px;
+
+    padding: 0px;
+}
+
+.registerContainer .button{
+    box-shadow: none;
+}
+
+.registerContainer .button button{
+    width: 250px;
+    height: 45px;
+
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+
+    color: white;
+    background-color: #FC367D;
+
+    border:none;
+    border-radius: 5px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+}
+
+.registerContainer .button button:hover{
+        background-color: #e34981;
+
+}
+
+@media screen and (min-height: 750px) {
+    
+    .mainRegisterContainer{
+        padding-top: 200px;
+     
+        display: flex;
+        flex-direction: column;
+     
+        align-items: center;
+        justify-content: center;
+     }
+}
+
+@media screen and (min-width: 340px) {
+    .registerContainer .form input{
+        width: 330px;
+    }
+
+    .registerContainer .button button{
+        width: 330px;
+    }
+
+    .registerContainer .header{
+    
+        justify-content: space-between;
+        
+    }
+}

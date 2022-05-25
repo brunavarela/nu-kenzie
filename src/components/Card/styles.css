@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap");
+
+.container-card-gray {
+  display: flex;
+  justify-content: center;
+
+  width: 360px;
+
+  background: #f8f9fa;
+  border-radius: 4px;
+
+  padding-left: 10px;
+
+  margin-top: 10px;
+
+  border-left: 4px solid #eeeeee;
+}
+
+.container-card-gray:hover {
+  box-shadow: 0 0 15px #e9ecef;
+}
+
+.container-card-green {
+  display: flex;
+  justify-content: center;
+
+  width: 360px;
+
+  background: #f8f9fa;
+  border-radius: 4px;
+
+  padding-left: 10px;
+
+  margin-top: 10px;
+
+  border-left: 4px solid #6db8ab;
+}
+
+.container-card-green:hover {
+  box-shadow: 0 0 15px #e9ecef;
+}
+
+.container-card-gray .description {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  border: none;
+  box-shadow: none;
+
+  margin-top: 0px;
+}
+
+.container-card-green .description {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  border: none;
+  box-shadow: none;
+
+  margin-top: 0px;
+}
+
+.container-card-gray .description h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #212529;
+}
+
+.container-card-green .description h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #212529;
+}
+.container-card-gray .description p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+
+  margin-top: 0;
+
+  color: #868e96;
+}
+
+.container-card-green .description p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+
+  margin-top: 0;
+
+  color: #868e96;
+}
+
+.container-card-gray .value {
+  display: flex;
+  align-items: center;
+
+  width: 130px;
+
+  border: none;
+
+  margin-top: 0px;
+}
+
+.container-card-gray .value h3 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+
+  color: #212529;
+}
+
+.container-card-green .value {
+  display: flex;
+  align-items: center;
+
+  width: 130px;
+
+  border: none;
+
+  margin-top: 0px;
+}
+.container-card-green .value h3 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+
+  color: #212529;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 10px;
+}
+
+.container-button button {
+  background-image: url(../assets/ButtonTrash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: none;
+
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+}
+
+.container-button button:hover {
+  background-image: url(../assets/TrashHover.png);
+}
+
+@media screen and (min-width: 900px) {
+  .container-card-gray {
+    width: 400px;
+  }
+
+  .container-card-green {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container-card-gray {
+    width: 560px;
+  }
+
+  .container-card-green {
+    width: 560px;
+  }
+}

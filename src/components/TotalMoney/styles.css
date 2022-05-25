@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap");
+
+.container__TotalMoney {
+  display: flex;
+  justify-content: center;
+
+  width: 360px;
+
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+
+  padding-left: 10px;
+
+  margin-top: 10px;
+
+  box-shadow: 0 0 20px #e9ecef;
+}
+
+.container__TotalMoney .description {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  border: none;
+  box-shadow: none;
+
+  margin-top: 0px;
+}
+.container__TotalMoney .description h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #212529;
+}
+.container__TotalMoney .description p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+
+  margin-top: 0;
+
+  color: #868e96;
+}
+
+.container__TotalMoney .value {
+  display: flex;
+  align-items: center;
+
+  width: 180px;
+
+  border: none;
+  box-shadow: none;
+
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.container__TotalMoney .value span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #fd377e;
+}
